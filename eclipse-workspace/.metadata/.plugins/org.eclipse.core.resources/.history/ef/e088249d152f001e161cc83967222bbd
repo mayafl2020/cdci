@@ -1,0 +1,16 @@
+package automationPractice;
+
+public class codingbat {
+	
+	 
+	 
+	 
+	public static void main(String[] args) {
+		
+		String str = "I'm working in IT company";
+		
+		System.out.println(str.substring(0, 5));
+
+	}
+
+}

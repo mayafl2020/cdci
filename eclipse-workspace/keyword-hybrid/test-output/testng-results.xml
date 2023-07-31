@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="52" passed="36" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected Result = Facebook - log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = Facebook - log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = Facebook - log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = Facebook - log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = Facebook - log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = Facebook - log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = Facebook - log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = Facebook - log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+    <line>
+      <![CDATA[From Keyword class]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-22T22:00:22 EDT" name="Suite" finished-at="2023-07-22T22:00:31 EDT" duration-ms="9362">
+    <groups>
+    </groups>
+    <test started-at="2023-07-22T22:00:22 EDT" name="EdgeTest" finished-at="2023-07-22T22:00:30 EDT" duration-ms="7937">
+      <class name="test.BasicValidations">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.BasicValidations@e056f20]" started-at="2023-07-22T22:00:22 EDT" name="beforeTest" finished-at="2023-07-22T22:00:26 EDT" duration-ms="4535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.BasicValidations@e056f20]" started-at="2023-07-22T22:00:26 EDT" name="beforeClass" finished-at="2023-07-22T22:00:26 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="pageTitleValidation()[pri:0, instance:test.BasicValidations@e056f20]" started-at="2023-07-22T22:00:26 EDT" name="pageTitleValidation" finished-at="2023-07-22T22:00:27 EDT" duration-ms="29" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = Facebook - log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = Facebook - log in or sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageTitleValidation -->
+        <test-method signature="pageUrlValidation()[pri:0, instance:test.BasicValidations@e056f20]" started-at="2023-07-22T22:00:27 EDT" name="pageUrlValidation" finished-at="2023-07-22T22:00:27 EDT" duration-ms="32" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = https://www.facebook.com/]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = https://www.facebook.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageUrlValidation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.BasicValidations@e056f20]" started-at="2023-07-22T22:00:30 EDT" name="afterTest" finished-at="2023-07-22T22:00:30 EDT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.BasicValidations -->
+      <class name="test.LoginValidationTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.LoginValidationTest@4b0b0854]" started-at="2023-07-22T22:00:27 EDT" name="beforeClass" finished-at="2023-07-22T22:00:27 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="blankUserNameblankPassword()[pri:0, instance:test.LoginValidationTest@4b0b0854]" started-at="2023-07-22T22:00:27 EDT" name="blankUserNameblankPassword" finished-at="2023-07-22T22:00:27 EDT" duration-ms="327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blankUserNameblankPassword -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@4b0b0854]" started-at="2023-07-22T22:00:27 EDT" name="invalidUsernameValidPassword" finished-at="2023-07-22T22:00:27 EDT" duration-ms="492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method signature="invalidUsernameinvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@4b0b0854]" started-at="2023-07-22T22:00:27 EDT" name="invalidUsernameinvalidPassword" finished-at="2023-07-22T22:00:28 EDT" duration-ms="766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameinvalidPassword -->
+        <test-method signature="validPassword(java.lang.String)[pri:0, instance:test.LoginValidationTest@4b0b0854]" started-at="2023-07-22T22:00:28 EDT" name="validPassword" finished-at="2023-07-22T22:00:28 EDT" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validPassword -->
+        <test-method signature="validUsername(java.lang.String)[pri:0, instance:test.LoginValidationTest@4b0b0854]" started-at="2023-07-22T22:00:28 EDT" name="validUsername" finished-at="2023-07-22T22:00:29 EDT" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsername -->
+        <test-method signature="validUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@4b0b0854]" started-at="2023-07-22T22:00:29 EDT" name="validUsernameValidPassword" finished-at="2023-07-22T22:00:29 EDT" duration-ms="437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsernameValidPassword -->
+        <test-method signature="validUsernameinvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@4b0b0854]" started-at="2023-07-22T22:00:29 EDT" name="validUsernameinvalidPassword" finished-at="2023-07-22T22:00:30 EDT" duration-ms="326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsernameinvalidPassword -->
+      </class> <!-- test.LoginValidationTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-07-22T22:00:22 EDT" name="SafariTest" finished-at="2023-07-22T22:00:31 EDT" duration-ms="9094">
+      <class name="test.BasicValidations">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.BasicValidations@57c758ac]" started-at="2023-07-22T22:00:22 EDT" name="beforeTest" finished-at="2023-07-22T22:00:26 EDT" duration-ms="3613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.BasicValidations@57c758ac]" started-at="2023-07-22T22:00:26 EDT" name="beforeClass" finished-at="2023-07-22T22:00:26 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="pageTitleValidation()[pri:0, instance:test.BasicValidations@57c758ac]" started-at="2023-07-22T22:00:26 EDT" name="pageTitleValidation" finished-at="2023-07-22T22:00:26 EDT" duration-ms="137" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = Facebook - log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = Facebook - log in or sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageTitleValidation -->
+        <test-method signature="pageUrlValidation()[pri:0, instance:test.BasicValidations@57c758ac]" started-at="2023-07-22T22:00:26 EDT" name="pageUrlValidation" finished-at="2023-07-22T22:00:26 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = https://www.facebook.com/]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = https://www.facebook.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageUrlValidation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.BasicValidations@57c758ac]" started-at="2023-07-22T22:00:31 EDT" name="afterTest" finished-at="2023-07-22T22:00:31 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.BasicValidations -->
+      <class name="test.LoginValidationTest">
+        <test-method signature="blankUserNameblankPassword()[pri:0, instance:test.LoginValidationTest@a9cd3b1]" started-at="2023-07-22T22:00:26 EDT" name="blankUserNameblankPassword" finished-at="2023-07-22T22:00:26 EDT" duration-ms="134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blankUserNameblankPassword -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.LoginValidationTest@a9cd3b1]" started-at="2023-07-22T22:00:26 EDT" name="beforeClass" finished-at="2023-07-22T22:00:26 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@a9cd3b1]" started-at="2023-07-22T22:00:26 EDT" name="invalidUsernameValidPassword" finished-at="2023-07-22T22:00:26 EDT" duration-ms="562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method signature="invalidUsernameinvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@a9cd3b1]" started-at="2023-07-22T22:00:26 EDT" name="invalidUsernameinvalidPassword" finished-at="2023-07-22T22:00:27 EDT" duration-ms="940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameinvalidPassword -->
+        <test-method signature="validPassword(java.lang.String)[pri:0, instance:test.LoginValidationTest@a9cd3b1]" started-at="2023-07-22T22:00:27 EDT" name="validPassword" finished-at="2023-07-22T22:00:28 EDT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validPassword -->
+        <test-method signature="validUsername(java.lang.String)[pri:0, instance:test.LoginValidationTest@a9cd3b1]" started-at="2023-07-22T22:00:28 EDT" name="validUsername" finished-at="2023-07-22T22:00:29 EDT" duration-ms="1021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsername -->
+        <test-method signature="validUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@a9cd3b1]" started-at="2023-07-22T22:00:29 EDT" name="validUsernameValidPassword" finished-at="2023-07-22T22:00:30 EDT" duration-ms="1252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsernameValidPassword -->
+        <test-method signature="validUsernameinvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@a9cd3b1]" started-at="2023-07-22T22:00:30 EDT" name="validUsernameinvalidPassword" finished-at="2023-07-22T22:00:31 EDT" duration-ms="1027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsernameinvalidPassword -->
+      </class> <!-- test.LoginValidationTest -->
+    </test> <!-- SafariTest -->
+    <test started-at="2023-07-22T22:00:22 EDT" name="ChromeTest" finished-at="2023-07-22T22:00:31 EDT" duration-ms="9094">
+      <class name="test.BasicValidations">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.BasicValidations@96def03]" started-at="2023-07-22T22:00:22 EDT" name="beforeTest" finished-at="2023-07-22T22:00:27 EDT" duration-ms="5214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.BasicValidations@96def03]" started-at="2023-07-22T22:00:27 EDT" name="beforeClass" finished-at="2023-07-22T22:00:27 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="pageTitleValidation()[pri:0, instance:test.BasicValidations@96def03]" started-at="2023-07-22T22:00:27 EDT" name="pageTitleValidation" finished-at="2023-07-22T22:00:27 EDT" duration-ms="52" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = Facebook - log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = Facebook - log in or sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageTitleValidation -->
+        <test-method signature="pageUrlValidation()[pri:0, instance:test.BasicValidations@96def03]" started-at="2023-07-22T22:00:27 EDT" name="pageUrlValidation" finished-at="2023-07-22T22:00:27 EDT" duration-ms="48" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = https://www.facebook.com/]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = https://www.facebook.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageUrlValidation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.BasicValidations@96def03]" started-at="2023-07-22T22:00:31 EDT" name="afterTest" finished-at="2023-07-22T22:00:31 EDT" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.BasicValidations -->
+      <class name="test.LoginValidationTest">
+        <test-method signature="blankUserNameblankPassword()[pri:0, instance:test.LoginValidationTest@3967e60c]" started-at="2023-07-22T22:00:27 EDT" name="blankUserNameblankPassword" finished-at="2023-07-22T22:00:28 EDT" duration-ms="396" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blankUserNameblankPassword -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.LoginValidationTest@3967e60c]" started-at="2023-07-22T22:00:27 EDT" name="beforeClass" finished-at="2023-07-22T22:00:27 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@3967e60c]" started-at="2023-07-22T22:00:28 EDT" name="invalidUsernameValidPassword" finished-at="2023-07-22T22:00:28 EDT" duration-ms="631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method signature="invalidUsernameinvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@3967e60c]" started-at="2023-07-22T22:00:28 EDT" name="invalidUsernameinvalidPassword" finished-at="2023-07-22T22:00:29 EDT" duration-ms="502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameinvalidPassword -->
+        <test-method signature="validPassword(java.lang.String)[pri:0, instance:test.LoginValidationTest@3967e60c]" started-at="2023-07-22T22:00:29 EDT" name="validPassword" finished-at="2023-07-22T22:00:29 EDT" duration-ms="565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validPassword -->
+        <test-method signature="validUsername(java.lang.String)[pri:0, instance:test.LoginValidationTest@3967e60c]" started-at="2023-07-22T22:00:29 EDT" name="validUsername" finished-at="2023-07-22T22:00:30 EDT" duration-ms="565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsername -->
+        <test-method signature="validUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@3967e60c]" started-at="2023-07-22T22:00:30 EDT" name="validUsernameValidPassword" finished-at="2023-07-22T22:00:30 EDT" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsernameValidPassword -->
+        <test-method signature="validUsernameinvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@3967e60c]" started-at="2023-07-22T22:00:30 EDT" name="validUsernameinvalidPassword" finished-at="2023-07-22T22:00:31 EDT" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsernameinvalidPassword -->
+      </class> <!-- test.LoginValidationTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-07-22T22:00:22 EDT" name="FireFoxTest" finished-at="2023-07-22T22:00:31 EDT" duration-ms="9362">
+      <class name="test.BasicValidations">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.BasicValidations@70e8f8e]" started-at="2023-07-22T22:00:22 EDT" name="beforeTest" finished-at="2023-07-22T22:00:29 EDT" duration-ms="7184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.BasicValidations@70e8f8e]" started-at="2023-07-22T22:00:29 EDT" name="beforeClass" finished-at="2023-07-22T22:00:29 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="pageTitleValidation()[pri:0, instance:test.BasicValidations@70e8f8e]" started-at="2023-07-22T22:00:29 EDT" name="pageTitleValidation" finished-at="2023-07-22T22:00:29 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = Facebook - log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = Facebook - log in or sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageTitleValidation -->
+        <test-method signature="pageUrlValidation()[pri:0, instance:test.BasicValidations@70e8f8e]" started-at="2023-07-22T22:00:29 EDT" name="pageUrlValidation" finished-at="2023-07-22T22:00:29 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = https://www.facebook.com/]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = https://www.facebook.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageUrlValidation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.BasicValidations@70e8f8e]" started-at="2023-07-22T22:00:30 EDT" name="afterTest" finished-at="2023-07-22T22:00:31 EDT" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.BasicValidations -->
+      <class name="test.LoginValidationTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.LoginValidationTest@17046283]" started-at="2023-07-22T22:00:29 EDT" name="beforeClass" finished-at="2023-07-22T22:00:29 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="blankUserNameblankPassword()[pri:0, instance:test.LoginValidationTest@17046283]" started-at="2023-07-22T22:00:29 EDT" name="blankUserNameblankPassword" finished-at="2023-07-22T22:00:29 EDT" duration-ms="109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blankUserNameblankPassword -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@17046283]" started-at="2023-07-22T22:00:29 EDT" name="invalidUsernameValidPassword" finished-at="2023-07-22T22:00:30 EDT" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method signature="invalidUsernameinvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@17046283]" started-at="2023-07-22T22:00:30 EDT" name="invalidUsernameinvalidPassword" finished-at="2023-07-22T22:00:30 EDT" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameinvalidPassword -->
+        <test-method signature="validPassword(java.lang.String)[pri:0, instance:test.LoginValidationTest@17046283]" started-at="2023-07-22T22:00:30 EDT" name="validPassword" finished-at="2023-07-22T22:00:30 EDT" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validPassword -->
+        <test-method signature="validUsername(java.lang.String)[pri:0, instance:test.LoginValidationTest@17046283]" started-at="2023-07-22T22:00:30 EDT" name="validUsername" finished-at="2023-07-22T22:00:30 EDT" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsername -->
+        <test-method signature="validUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@17046283]" started-at="2023-07-22T22:00:30 EDT" name="validUsernameValidPassword" finished-at="2023-07-22T22:00:30 EDT" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsernameValidPassword -->
+        <test-method signature="validUsernameinvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidationTest@17046283]" started-at="2023-07-22T22:00:30 EDT" name="validUsernameinvalidPassword" finished-at="2023-07-22T22:00:30 EDT" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayafl2023@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[From Keyword class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsernameinvalidPassword -->
+      </class> <!-- test.LoginValidationTest -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

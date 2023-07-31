@@ -1,0 +1,19 @@
+package automationPractice;
+
+public class codingbat {
+	
+	 
+	 
+	 
+	public static void main(String[] args) {
+		
+		String str = "I'm working in IT company";
+		String front = str.substring(0, 3);
+		String back = str.substring(4, str.length());
+		System.out.println(front + back);
+	
+		
+
+	}
+
+}

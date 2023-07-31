@@ -1,0 +1,19 @@
+package automationPractice;
+
+public class codingbat {
+	
+	 
+	 
+	 
+	public static void main(String[] args) {
+		
+		String str = "Kitten";
+		String front = str.substring(0, 1);
+		String back = str.substring(1+1, str.length());
+		System.out.println(front + back);
+	
+		
+
+	}
+
+}

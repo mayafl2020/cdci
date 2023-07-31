@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ParametersExample">
+  <parameter name="validUsername" value="my23may"></parameter>
+  <parameter name="validPassword" value="9999999"></parameter>
+   <parameter name="invalidUsername" value="1my23may"></parameter>
+  <parameter name="invalidPassword" value="19999999"></parameter>
+  <classes>
+  <class name="basic.ParameterExample"></class>
+  </classes>
+  </test> <!-- ParametersExample -->
+</suite> <!-- Suite -->

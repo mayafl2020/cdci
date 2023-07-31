@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 22 22:00:22 EDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9094 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.BasicValidations.pageTitleValidation()'><b>pageTitleValidation</b><br>Test class: test.BasicValidations<br/>
+<a href="#Output-1978168218" onClick='toggleBox("Output-1978168218", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1978168218" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1978168218">
+Expected Result = Facebook - log in or sign up<br/>
+Actual Result = Facebook - log in or sign up<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.BasicValidations@96def03</td></tr>
+<tr>
+<td title='test.LoginValidationTest.invalidUsernameinvalidPassword()'><b>invalidUsernameinvalidPassword</b><br>Test class: test.LoginValidationTest<br>Parameters: -mayafl2023@gmail.com, -test<br/>
+<a href="#Output-51807029" onClick='toggleBox("Output-51807029", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-51807029" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-51807029">
+From Keyword class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidationTest@3967e60c</td></tr>
+<tr>
+<td title='test.BasicValidations.pageUrlValidation()'><b>pageUrlValidation</b><br>Test class: test.BasicValidations<br/>
+<a href="#Output-1052451950" onClick='toggleBox("Output-1052451950", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1052451950" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1052451950">
+Expected Result = https://www.facebook.com/<br/>
+Actual Result = https://www.facebook.com/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.BasicValidations@96def03</td></tr>
+<tr>
+<td title='test.LoginValidationTest.validPassword()'><b>validPassword</b><br>Test class: test.LoginValidationTest<br>Parameters: test<br/>
+<a href="#Output-2116935883" onClick='toggleBox("Output-2116935883", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2116935883" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2116935883">
+From Keyword class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidationTest@3967e60c</td></tr>
+<tr>
+<td title='test.LoginValidationTest.validUsernameValidPassword()'><b>validUsernameValidPassword</b><br>Test class: test.LoginValidationTest<br>Parameters: mayafl2023@gmail.com, test<br/>
+<a href="#Output-1815506255" onClick='toggleBox("Output-1815506255", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1815506255" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1815506255">
+From Keyword class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidationTest@3967e60c</td></tr>
+<tr>
+<td title='test.LoginValidationTest.blankUserNameblankPassword()'><b>blankUserNameblankPassword</b><br>Test class: test.LoginValidationTest<br/>
+<a href="#Output-464989613" onClick='toggleBox("Output-464989613", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-464989613" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-464989613">
+From Keyword class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidationTest@3967e60c</td></tr>
+<tr>
+<td title='test.LoginValidationTest.validUsername()'><b>validUsername</b><br>Test class: test.LoginValidationTest<br>Parameters: mayafl2023@gmail.com<br/>
+<a href="#Output-910180892" onClick='toggleBox("Output-910180892", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-910180892" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-910180892">
+From Keyword class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidationTest@3967e60c</td></tr>
+<tr>
+<td title='test.LoginValidationTest.invalidUsernameValidPassword()'><b>invalidUsernameValidPassword</b><br>Test class: test.LoginValidationTest<br>Parameters: -mayafl2023@gmail.com, test<br/>
+<a href="#Output-1606254112" onClick='toggleBox("Output-1606254112", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1606254112" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1606254112">
+From Keyword class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidationTest@3967e60c</td></tr>
+<tr>
+<td title='test.LoginValidationTest.validUsernameinvalidPassword()'><b>validUsernameinvalidPassword</b><br>Test class: test.LoginValidationTest<br>Parameters: mayafl2023@gmail.com, -test<br/>
+<a href="#Output-1134219749" onClick='toggleBox("Output-1134219749", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1134219749" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1134219749">
+From Keyword class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidationTest@3967e60c</td></tr>
+</table><p>
+</body>
+</html>

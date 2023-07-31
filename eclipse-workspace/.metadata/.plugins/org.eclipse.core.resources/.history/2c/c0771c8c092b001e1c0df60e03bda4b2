@@ -1,0 +1,73 @@
+package automationPractice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class automatedWebsite {
+
+	public static void main(String[] args) {
+	
+//		WebDriver driver;
+//		
+//		System.getProperty("webdriver.chrome,driver", "/Users/mayafarberov/eclipse-workspace/automationPractice/drivers/chromedriver");
+//		driver = new ChromeDriver();
+//		driver.get("https://www.marthastewart.com");
+//		
+//		JavascriptExecutor js =  (JavascriptExecutor)driver;
+//		js.executeScript("window.scrollBy(0,2000)");
+//		
+//		String name = "Maya";
+//		for(int i =0;i <= name.length();i++) {
+//		System.out.println(name);
+//		}
+//		int [] numbers = {1,2,3,4,5};
+//		for(int i = 0 ; i < numbers.length; i++) {
+//			System.out.println(numbers[i]);
+//		}
+//	
+//	   String name = "racecar";
+//	   String output ="";
+//	   for(int i = name.length()-1; i >=0;i--) {
+//		   output = output + name.charAt(i);
+//		   }
+//		   if(name.equals(output)) {
+//		   System.out.print("name is palindrome");
+//	   }else {
+//		   System.out.println("not a palindrome");
+//	   }
+
+//		String str = "1234";
+//		int number = Integer.parseInt(str);
+//		System.out.println(str);
+		
+		
+//		int sum =0;
+//		for(int i = 1; i <=10;i++) {
+//			if(i % 2 == 0) {
+//			sum = sum + i;
+//			}
+//			}
+//		
+//		System.out.println(sum);
+//			
+//			
+//		String[] name = {"apples","bananas","grapes","cherries"};
+//		for(String a:name) {
+//			System.out.println(a + ", ");
+//		}
+//		System.out.println(name.length);
+//		
+		
+		
+		int i = 5147;
+	    int income = 78300;
+		double sum = i + (income - 95375)* 0.12;
+		System.out.println(sum);
+		}
+	}
+	
+	
+
+

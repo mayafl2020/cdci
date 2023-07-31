@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/mayafarberov/eclipse-workspace/selenium"/>
+			<item value="/Users/mayafarberov/eclipse-workspace/automation/src/test/java/pom/ContactUsForm.java"/>
+			<item value="/Users/mayafarberov/eclipse-workspace/data-driven/src/test/java/test/BaseTest.java"/>
+			<item value="/Users/mayafarberov/eclipse-workspace/MavenProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.consumerdirectfl"/>
+			<item value="com.edureka"/>
+			<item value="com.facebook"/>
+			<item value="lease.split"/>
+			<item value="com.automationexcersie"/>
+			<item value="com.automationexercise"/>
+		</list>
+		<list key="name">
+			<item value="consumerDirectCare"/>
+			<item value="testAutomation"/>
+			<item value="javaProject"/>
+			<item value="JenkinsPractice"/>
+			<item value="split.lease"/>
+			<item value="practice"/>
+		</list>
+		<list key="artifactId">
+			<item value="consumerdirectfl"/>
+			<item value="automationPractice"/>
+			<item value="java"/>
+			<item value="com.facebook"/>
+			<item value="split.lease"/>
+			<item value="automation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
