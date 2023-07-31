@@ -1,0 +1,585 @@
+<html>
+<head>
+<title>TestNG:  HomePageValidationTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>HomePageValidationTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 22 03:22:54 EDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>23 seconds (23663 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC127()'><b>HPTC127</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-635068762" onClick='toggleBox("Output-635068762", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-635068762" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-635068762">
+About is clicked<br/>
+About button is displayed = true<br/>
+Services is displayed = true<br/>
+Who we are is displayed = true<br/>
+Our Brand is displayed = true<br/>
+Our Locations is displayed = true<br/>
+Contact is displayed = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC133()'><b>HPTC133</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-69670055" onClick='toggleBox("Output-69670055", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-69670055" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-69670055">
+Contact button clicked<br/>
+Page title = Contact - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC128()'><b>HPTC128</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-745205026" onClick='toggleBox("Output-745205026", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-745205026" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-745205026">
+About button clicked<br/>
+Page title = About - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC104()'><b>HPTC104</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1715686600" onClick='toggleBox("Output-1715686600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1715686600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1715686600">
+Toll free number is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC131()'><b>HPTC131</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1671084561" onClick='toggleBox("Output-1671084561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1671084561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1671084561">
+Our Brand button clicked<br/>
+Page title = Brand - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC112()'><b>HPTC112</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1089341986" onClick='toggleBox("Output-1089341986", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1089341986" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1089341986">
+Forms button clicked<br/>
+Page title = Forms - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC100()'><b>HPTC100</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-648630181" onClick='toggleBox("Output-648630181", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-648630181" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-648630181">
+title = Home - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC139()'><b>HPTC139</b><br>Test class: test.HomePageValidationTest<br>Parameters: test@gmail.com, test1234!<br/>
+<a href="#Output-527464124" onClick='toggleBox("Output-527464124", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-527464124" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-527464124">
+Invalid email and password<br/>
+Error message is displayed = true<br/>
+Log in with invalid email and invalid password<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC120()'><b>HPTC120</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1206678562" onClick='toggleBox("Output-1206678562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1206678562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1206678562">
+Resources button clicked<br/>
+Page title = Resources - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC124()'><b>HPTC124</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-386311625" onClick='toggleBox("Output-386311625", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-386311625" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-386311625">
+Fraud Prevention button clicked<br/>
+Page title = Fraud Prevention - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC111()'><b>HPTC111</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-2032399795" onClick='toggleBox("Output-2032399795", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2032399795" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2032399795">
+Forms clicked<br/>
+Forms is displayed true<br/>
+Unitde healthcare  forms is displayed true<br/>
+Molina healthchare forms is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC136()'><b>HPTC136</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-904612411" onClick='toggleBox("Output-904612411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-904612411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-904612411">
+Scrolled down<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC126()'><b>HPTC126</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-2115983437" onClick='toggleBox("Output-2115983437", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2115983437" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2115983437">
+About is displayed = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC135()'><b>HPTC135</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1007402143" onClick='toggleBox("Output-1007402143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1007402143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1007402143">
+Search button clicked<br/>
+Search site is displayed = false<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC107()'><b>HPTC107</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1743553655" onClick='toggleBox("Output-1743553655", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1743553655" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1743553655">
+Direct My Care is displayed =  true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC138()'><b>HPTC138</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1708490318" onClick='toggleBox("Output-1708490318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1708490318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1708490318">
+Sign in button clicked<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC114()'><b>HPTC114</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1311052922" onClick='toggleBox("Output-1311052922", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1311052922" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1311052922">
+Molina healthcare forms button clicked<br/>
+Page title = Molina Healthcare Forms - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC101()'><b>HPTC101</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-931911789" onClick='toggleBox("Output-931911789", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-931911789" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-931911789">
+Logo is displayed = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC125()'><b>HPTC125</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-103394766" onClick='toggleBox("Output-103394766", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-103394766" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-103394766">
+Careers button clicked<br/>
+Page title = Careers - Consumer Direct Care Network<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC105()'><b>HPTC105</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1395173825" onClick='toggleBox("Output-1395173825", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1395173825" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1395173825">
+Toll free number - 877-270-9580<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC109()'><b>HPTC109</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-271422148" onClick='toggleBox("Output-271422148", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-271422148" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-271422148">
+Direct My Care button is clicked<br/>
+Page title = Consumer Direct<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC121()'><b>HPTC121</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-195253450" onClick='toggleBox("Output-195253450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-195253450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-195253450">
+Provider Directory button clicked<br/>
+Page title = Provider Directory App<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC134()'><b>HPTC134</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1886381510" onClick='toggleBox("Output-1886381510", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1886381510" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1886381510">
+Search button is displayed = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC108()'><b>HPTC108</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-611739613" onClick='toggleBox("Output-611739613", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-611739613" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-611739613">
+Direct My Care clicked<br/>
+Direct my care button is displayed = true<br/>
+Direct My Care drop down clicked<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC123()'><b>HPTC123</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-81505591" onClick='toggleBox("Output-81505591", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-81505591" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-81505591">
+Work Injury Hotline button clicked<br/>
+Page title = Work Injury Hotline - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC137()'><b>HPTC137</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-684407333" onClick='toggleBox("Output-684407333", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-684407333" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-684407333">
+Click here to login clicked<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC103()'><b>HPTC103</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1164289802" onClick='toggleBox("Output-1164289802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1164289802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1164289802">
+Logo size = (150, 45)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC130()'><b>HPTC130</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-60181881" onClick='toggleBox("Output-60181881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-60181881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-60181881">
+Who We Are button clicked<br/>
+Page title = Who We Are - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC122()'><b>HPTC122</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1353512285" onClick='toggleBox("Output-1353512285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1353512285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1353512285">
+News button clicked<br/>
+Page title = News - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC129()'><b>HPTC129</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-716550087" onClick='toggleBox("Output-716550087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-716550087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-716550087">
+Services button clicked<br/>
+Page title = Services - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC113()'><b>HPTC113</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1313618488" onClick='toggleBox("Output-1313618488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1313618488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1313618488">
+United healthcare forms button clicked<br/>
+Page title = United Healthcare Forms - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC117()'><b>HPTC117</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-990830650" onClick='toggleBox("Output-990830650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-990830650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-990830650">
+Training materials button clicked<br/>
+Page title = Training Materials - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC132()'><b>HPTC132</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-2189588" onClick='toggleBox("Output-2189588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2189588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2189588">
+Our Locations button clicked<br/>
+Page title = Our Locations - Consumer Direct Care Network Florida<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC102()'><b>HPTC102</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1997704619" onClick='toggleBox("Output-1997704619", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1997704619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1997704619">
+Logo location = (139, 51)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC116()'><b>HPTC116</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-124376339" onClick='toggleBox("Output-124376339", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-124376339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-124376339">
+Training Materials clicked<br/>
+Training Materials is diplayed = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC118()'><b>HPTC118</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1630968203" onClick='toggleBox("Output-1630968203", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1630968203" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1630968203">
+Resources is displayed = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC115()'><b>HPTC115</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-365864880" onClick='toggleBox("Output-365864880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-365864880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-365864880">
+Training Materials is displayed = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC119()'><b>HPTC119</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1706883010" onClick='toggleBox("Output-1706883010", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1706883010" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1706883010">
+Resources clicked<br/>
+Resources is displayed = true<br/>
+Provider Directory is displayed = true<br/>
+News is displayed = true<br/>
+Work Injury Hotline is displayed = true<br/>
+Fraud Prevention is displayed = true<br/>
+Careers is displayed = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+<tr>
+<td title='test.HomePageValidationTest.HPTC110()'><b>HPTC110</b><br>Test class: test.HomePageValidationTest<br/>
+<a href="#Output-1432403167" onClick='toggleBox("Output-1432403167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1432403167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1432403167">
+Forms is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageValidationTest@1b1473ab</td></tr>
+</table><p>
+</body>
+</html>

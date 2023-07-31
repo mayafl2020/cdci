@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="invalidPassword" value="test1234!"/>
+  <parameter name="url" value="https://www.consumerdirectfl.com"/>
+  <parameter name="invalidEmail" value="test@gmail.com"/>
+  <test thread-count="5" parallel="tests" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="test.HomePageValidationTest">
+        <methods>
+          <include name="HPTC115"/>
+          <include name="HPTC137"/>
+          <include name="HPTC121"/>
+          <include name="HPTC132"/>
+          <include name="HPTC113"/>
+          <include name="HPTC124"/>
+          <include name="HPTC135"/>
+          <include name="HPTC116"/>
+          <include name="HPTC111"/>
+          <include name="HPTC133"/>
+          <include name="HPTC120"/>
+          <include name="HPTC131"/>
+          <include name="beforeTest"/>
+          <include name="HPTC112"/>
+          <include name="HPTC123"/>
+          <include name="HPTC134"/>
+          <include name="HPTC130"/>
+          <include name="HPTC125"/>
+          <include name="afterTest"/>
+          <include name="HPTC129"/>
+          <include name="HPTC119"/>
+          <include name="HPTC117"/>
+          <include name="HPTC128"/>
+        </methods>
+      </class> <!-- test.HomePageValidationTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.HomePageValidationTest">
+        <methods>
+          <include name="HPTC121"/>
+          <include name="HPTC124"/>
+          <include name="HPTC127"/>
+          <include name="HPTC122"/>
+          <include name="HPTC120"/>
+          <include name="beforeTest"/>
+          <include name="HPTC123"/>
+          <include name="HPTC125"/>
+          <include name="afterTest"/>
+          <include name="HPTC119"/>
+          <include name="HPTC117"/>
+          <include name="HPTC115"/>
+          <include name="HPTC137"/>
+          <include name="HPTC113"/>
+          <include name="HPTC135"/>
+          <include name="HPTC116"/>
+          <include name="HPTC111"/>
+          <include name="HPTC133"/>
+          <include name="HPTC131"/>
+          <include name="HPTC112"/>
+          <include name="HPTC130"/>
+          <include name="HPTC114"/>
+          <include name="HPTC129"/>
+          <include name="HPTC128"/>
+          <include name="HPTC109"/>
+        </methods>
+      </class> <!-- test.HomePageValidationTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="safariTest(failed)">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="test.HomePageValidationTest">
+        <methods>
+          <include name="HPTC115"/>
+          <include name="HPTC121"/>
+          <include name="HPTC132"/>
+          <include name="HPTC113"/>
+          <include name="HPTC124"/>
+          <include name="HPTC135"/>
+          <include name="HPTC116"/>
+          <include name="HPTC127"/>
+          <include name="HPTC122"/>
+          <include name="HPTC133"/>
+          <include name="HPTC120"/>
+          <include name="HPTC131"/>
+          <include name="beforeTest"/>
+          <include name="HPTC130"/>
+          <include name="HPTC114"/>
+          <include name="HPTC125"/>
+          <include name="afterTest"/>
+          <include name="HPTC129"/>
+          <include name="HPTC119"/>
+          <include name="HPTC117"/>
+          <include name="HPTC128"/>
+          <include name="HPTC109"/>
+        </methods>
+      </class> <!-- test.HomePageValidationTest -->
+    </classes>
+  </test> <!-- safariTest(failed) -->
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="test.HomePageValidationTest">
+        <methods>
+          <include name="HPTC137"/>
+          <include name="HPTC110"/>
+          <include name="HPTC132"/>
+          <include name="HPTC113"/>
+          <include name="HPTC124"/>
+          <include name="HPTC135"/>
+          <include name="HPTC111"/>
+          <include name="HPTC122"/>
+          <include name="HPTC133"/>
+          <include name="HPTC120"/>
+          <include name="HPTC131"/>
+          <include name="beforeTest"/>
+          <include name="HPTC112"/>
+          <include name="HPTC123"/>
+          <include name="HPTC134"/>
+          <include name="HPTC130"/>
+          <include name="HPTC125"/>
+          <include name="afterTest"/>
+          <include name="HPTC107"/>
+          <include name="HPTC129"/>
+          <include name="HPTC117"/>
+          <include name="HPTC109"/>
+        </methods>
+      </class> <!-- test.HomePageValidationTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
